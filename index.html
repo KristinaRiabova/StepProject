@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="width=1200px>
+    <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Project</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap"
+    
+        rel="stylesheet">
+        <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    /> 
+
+</head>
+
+<body> 
+    <section class="first-page">
+        <header>
+            <svg class="logo" width="234" height="120" viewBox="0 0 234 120" fill="rgba(255, 255, 255, 0.6);
+            " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                    d="M76.032 70.976C75.6053 71.36 75.072 71.6587 74.432 71.872C73.8133 72.064 73.1627 72.16 72.48 72.16C70.9013 72.16 69.6853 71.7333 68.832 70.88C67.9787 70.0267 67.552 68.8213 67.552 67.264V57.088H64.544V55.168H67.552V51.488H69.824V55.168H74.944V57.088H69.824V67.136C69.824 68.1387 70.0693 68.9067 70.56 69.44C71.072 69.952 71.7973 70.208 72.736 70.208C73.2053 70.208 73.6533 70.1333 74.08 69.984C74.528 69.8347 74.912 69.6213 75.232 69.344L76.032 70.976ZM88.744 55.04C90.856 55.04 92.5307 55.6587 93.768 56.896C95.0267 58.112 95.656 59.8933 95.656 62.24V72H93.384V62.464C93.384 60.7147 92.9467 59.3813 92.072 58.464C91.1973 57.5467 89.9493 57.088 88.328 57.088C86.5147 57.088 85.0747 57.632 84.008 58.72C82.9627 59.7867 82.44 61.2693 82.44 63.168V72H80.168V48.256H82.44V58.112C83.0587 57.1307 83.912 56.3733 85 55.84C86.088 55.3067 87.336 55.04 88.744 55.04ZM116.543 64.288H102.463C102.591 66.0373 103.263 67.456 104.479 68.544C105.695 69.6107 107.231 70.144 109.087 70.144C110.132 70.144 111.092 69.9627 111.967 69.6C112.841 69.216 113.599 68.6613 114.239 67.936L115.519 69.408C114.772 70.304 113.833 70.9867 112.703 71.456C111.593 71.9253 110.367 72.16 109.023 72.16C107.295 72.16 105.759 71.7973 104.415 71.072C103.092 70.3253 102.057 69.3013 101.311 68C100.564 66.6987 100.191 65.2267 100.191 63.584C100.191 61.9413 100.543 60.4693 101.247 59.168C101.972 57.8667 102.953 56.8533 104.191 56.128C105.449 55.4027 106.857 55.04 108.415 55.04C109.972 55.04 111.369 55.4027 112.607 56.128C113.844 56.8533 114.815 57.8667 115.519 59.168C116.223 60.448 116.575 61.92 116.575 63.584L116.543 64.288ZM108.415 56.992C106.793 56.992 105.428 57.5147 104.319 58.56C103.231 59.584 102.612 60.928 102.463 62.592H114.399C114.249 60.928 113.62 59.584 112.511 58.56C111.423 57.5147 110.057 56.992 108.415 56.992Z"
+                    fill="rgba(255, 255, 255, 0.6);
+                    " />
+                <path
+                    d="M141.231 49.6V72H136.047V62.816H125.871V72H120.687V49.6H125.871V58.432H136.047V49.6H141.231ZM153.123 54.528C155.79 54.528 157.838 55.168 159.267 56.448C160.696 57.7067 161.411 59.616 161.411 62.176V72H156.739V69.856C155.8 71.456 154.051 72.256 151.491 72.256C150.168 72.256 149.016 72.032 148.035 71.584C147.075 71.136 146.339 70.5173 145.827 69.728C145.315 68.9387 145.059 68.0427 145.059 67.04C145.059 65.44 145.656 64.1813 146.851 63.264C148.067 62.3467 149.934 61.888 152.451 61.888H156.419C156.419 60.8 156.088 59.968 155.427 59.392C154.766 58.7947 153.774 58.496 152.451 58.496C151.534 58.496 150.627 58.6453 149.731 58.944C148.856 59.2213 148.11 59.6053 147.491 60.096L145.699 56.608C146.638 55.9467 147.758 55.4347 149.059 55.072C150.382 54.7093 151.736 54.528 153.123 54.528ZM152.739 68.896C153.592 68.896 154.35 68.704 155.011 68.32C155.672 67.9147 156.142 67.328 156.419 66.56V64.8H152.995C150.947 64.8 149.923 65.472 149.923 66.816C149.923 67.456 150.168 67.968 150.659 68.352C151.171 68.7147 151.864 68.896 152.739 68.896ZM187.977 54.528C190.132 54.528 191.838 55.168 193.097 56.448C194.377 57.7067 195.017 59.6053 195.017 62.144V72H190.025V62.912C190.025 61.5467 189.737 60.5333 189.161 59.872C188.606 59.1893 187.806 58.848 186.761 58.848C185.588 58.848 184.66 59.232 183.977 60C183.294 60.7467 182.953 61.8667 182.953 63.36V72H177.961V62.912C177.961 60.2027 176.873 58.848 174.697 58.848C173.545 58.848 172.628 59.232 171.945 60C171.262 60.7467 170.921 61.8667 170.921 63.36V72H165.929V54.784H170.697V56.768C171.337 56.0427 172.116 55.488 173.033 55.104C173.972 54.72 174.996 54.528 176.105 54.528C177.321 54.528 178.42 54.7733 179.401 55.264C180.382 55.7333 181.172 56.4267 181.769 57.344C182.473 56.448 183.358 55.7547 184.425 55.264C185.513 54.7733 186.697 54.528 187.977 54.528Z"
+                    fill="#18CFAB" />
+                <rect y="26" width="58" height="67" fill="url(#pattern0)" />
+                <path d="M42 46V74H35.52V62.52H22.8V74H16.32V46H22.8V57.04H35.52V46H42Z" fill="white" />
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_2143_412" transform="scale(0.0172414 0.0149254)" />
+                    </pattern>
+                    <image id="image0_2143_412" width="58" height="67"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAABDCAYAAADNlhYhAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+nhxg7wAAAxpJREFUaIHt20FoHVUUxvGfExEKgYAgBAoupMGQoLRQLC6KpUX3EUVBBKVCsSgVs6m0S6VuKi2KghgUF6JE2o0rRTEggtKSUqkIDS0UAoVCoFAoBAIuTh6UR/o6M+/OTN6b998lb96957v3nHO/OyQPTS4vqpHDOI5PsID1uibOappnN/7CV9iFz3EFczXNX7nQCXyKC3im67NdOIffxUJUSpVC38BVvIOxHs89h2Wx25NVBVOF0KfwJ77GYwW+d1gszAnsSB1USqETOCN259mSY4zjQ/wnhCcjldDXRXDH9E7TvDwuUnlZpHbf9Ct0RjSTb1VTX7s3xz8nmldpygodx2lclmjFH8CcOI5OixIpTBmhr4g0fV+aNM3LI5tzXsPbmz/npojQGfyK77GzyCSJeVQJw5FH6DhOicZwsFRo1VDIcDxI6Eti5Y4rmCo1kstw3E/ok/gZi6LVDwI9DUe30B3iwL6M5ysPLT0dw3FVl+G4V+ic6KYnbN80zctOXYYjE0X9kyjsQUnTvHQMx7GHRZomN9HbjMnM8ItEpO6dpoOogwwbTQdRA+N1vTNqmrG2CJXhdtNB1EFbdnRUo0PHqEaHjIm2CG3Njo5qdNhoV4224fbSrvtoGxjV6NDRlhptze2lNffRUY0OG6MaHToyNf6FZZNkuNt0EDUwqtFhYz3DzaajqJhfMJvhLA7gUqPhpOcGXsYLWOmk7hL24C2Dv8Pr+Biz+LHzy+4aXcAUPjKY3fg3sWEf6HJ8WzWjOziJaSF8EFjFqziEf7d6oFfXvSFSeY9I7e3IhvjXkmn80OvBPMfLJdGsXsRKv5ElZAlPY16Oi0mRc/S8KPB5zb7dv4nXxOJvmaZbUdQwrItUeQJfqNcnb4ijcBrfFf1yWWe0hqNih8+XHKMIf4he8Z6S2dSvBVwRtXtANYbjFt7EfvzTz0CpvG5qw7GBz8SZ/k2C8ZK/qU9hOP7GXrwrYdOr4vbSMRxTihmONZER+1RQBlVe01blNxxfik5emROr4z7ay3BcFGl6RMVnc50X73sNx3Uhbq8QWzn/A5kFk+cEK0EoAAAAAElFTkSuQmCC" />
+                </defs>
+            </svg>
+            <div class="nav-bar">
+                <a class="nav-bar-link">HOME</a>
+                <a class="nav-bar-link">ABOUT</a>
+                <a class="nav-bar-link">BLOG</a>
+                <a class="nav-bar-link">SKILLS</a>
+                <a class="nav-bar-link">SERVICE</a>
+                <a class="nav-bar-link">WORK</a>
+                <a class="nav-bar-link">TESTIMONIAL</a>
+            </div>
+            <div class="nav-bar-search"><img src="./img/search.svg"></div>
+
+        </header>
+        <div class="first-page-text">
+            <h2 class="first-page-text-h2">The Ham is <span> Wordpress Theme </span></h2>
+            <h1 class="first-page-text-h1">We are creative</h1> 
+            <p class="first-page-text-p">Just Buy And Enjoy These Awesome Features</p>
+        </div>
+        <div class="fp-buttons">
+            <div>
+                <div class="v-fp-button1"></div>
+                <a href="#" class="fp-button1">EXPLORE NOW</a>
+            </div>
+            <div>
+                <div class="v-fp-button2"></div>
+                <a href="#" class="fp-button2">PURCHASE NOW</a>
+            </div>
+        </div>
+    </section>
+    <section class="squares">
+        <div class="dark-blue-square">
+            <img src="./img/finger-square.svg">
+            <p>Different theme option</p>
+        </div>
+        <div class="bright-blue-square">
+            <img class="diamond-square" src="./img/diamond-square.svg">
+            <p>Fully customizable</p>
+        </div>
+        <div class="dark-blue-square">
+            <img src="./img/lamp-square.svg">
+            <p>Unlimited support</p>
+        </div>
+        <div class="bright-blue-square">
+            <img class="devices-square" src="./img/devices-square.svg">
+            <p>Responsive all device</p>
+        </div>
+    </section>
+    <div class="container">
+        <section class="services">
+            <h2 class="title-secondpage">Our Services</h2>
+            <ul class="services-list">
+                <li class="services-item" id="webDesign" onclick="setContent('webDesign')">
+                    Web Design
+                </li>
+                <li class="services-item" id="graphicDesign" onclick="setContent('graphicDesign')">
+                    Graphic Design
+                </li>
+                <li class="services-item" id="onlineSupport" onclick="setContent('onlineSupport')">
+                    Online Support
+                </li>
+                <li class="services-item" id="appDesign" onclick="setContent('appDesign')">
+                    App Design
+                </li>
+                <li class="services-item" id="onlineMarketing" onclick="setContent('onlineMarketing')">
+                    Online Marketing
+                </li>
+                <li class="services-item" id="seoService" onclick="setContent('seoService')">
+                    Seo Service
+                </li> 
+            </ul>
+            <!-- <ul class="services-list-content"> 
+                <li class="services-item-content active" id="WebDesign" data-description="WebDesign">
+                    <img class="services-item-content-img" src="./img/vtykalo.png" alt="" />
+                    <p class="services-item-content-text">
+                        Nikita's the best, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                        laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </li>
+                <li class="services-item-content" id="GraphicDesign" data-description="GraphicDesign">
+                    <img class="services-item-content-img" src="./img/vtykalo.png" alt="" />
+                    <p class="services-item-content-text">
+                        Graphic design is the profession and academic discipline whose activity 
+                        consists in projecting visual communications intended to transmit specific 
+                        messages to social groups, with specific objectives. Design is based on the 
+                        principle of "form follows a specific function". Therefore, graphic design is 
+                        an interdisciplinary branch of design[1] whose foundations and objectives 
+                        revolve around the definition of problems and the determination of objectives 
+                        for decision-making, through creativity, innovation and lateral thinking along 
+                        with manual or digital tools, transforming them for proper interpretation. 
+                        This activity helps in the optimization of graphic communications (see also 
+                        communication design). It is also known as visual communication design, visual 
+                        design or editorial design.
+                    </p>
+                </li>
+                <li class="services-item-content" id="OnlineSupport" data-description="OnlineSupport">
+                    <img class="services-item-content-img" src="./img/vtykalo.png" alt="" />
+                    <p class="services-item-content-text">
+                        Stay cool 
+                    </p>
+                </li> 
+                <li class="services-item-content" id="AppDesign" data-description="AppDesign">
+                    <img class="services-item-content-img" src="./img/vtykalo.png" alt="" />
+                    <p class="services-item-content-text">
+                        To become App Designer you have to learn how to design apps
+                    </p>
+                </li>
+                <li class="services-item-content" id="OnlineMarketing" data-description="OnlineMarketing">
+                    <img class="services-item-content-img" src="./img/vtykalo.png" alt="" />
+                    <p class="services-item-content-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </li>
+                <li class="services-item-content" id="SeoService" data-description="SeoService"> 
+                    <img class="services-item-content-img" src="./img/vtykalo.png" alt="" />
+                    <p class="services-item-content-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.
+                    </p>
+                </li>
+            </ul> -->
+             
+            <div class="services-list-content" id="content">
+            </div>
+            
+        </section>
+    </div>
+
+
+    <!-- <section class="second-page">
+        <h2 class="title-secondpage">Our Services</h2>
+        <div class="os-centered-content">
+
+            <div class="os-tabs">
+                <div class="os-tab active">
+                    <div class="os-tab-title active" data-tab="#wDesign">Web Design</div>
+                    <img class="rectangle" src="./img/Rectangle.svg">
+                </div>
+                <div class="os-tab">
+                    <div class="os-tab-title" data-tab="#gDesign">Graphic Design</div>
+                    <img class="rectangle" src="./img/rectangle.svg">
+                </div>
+                <div class="os-tab-title" data-tab="#oSupport">Online Support</div>
+                <div class="os-tab-title" data-tab="#aDesign">App Design</div>
+                <div class="os-tab-title" data-tab="#oMarketing">Online Marketing</div>
+                <div class="os-tab-title" data-tab="#sService">Seo Service</div>
+            </div>
+            <div>
+                <div class="os-tab-content active" id="wDesign">
+                    <img>
+                    <p>Here should be written something, but there is written something else</p>
+                </div>
+                <div class="os-tab-content" id="gDesign">
+                    <img>
+                    <p>Hello, It's me. I was wondering if bla bla bla, don't really remember these all lyrics, but it
+                        looks fine</p>
+                </div>
+                <div class="os-tab-content" id="oSupport">
+                    <img>
+                    <p>Led Zeppelin. Rolling stones. Led Zeppelin. Rolling Stones. Pink Floyd. Pink Floyd</p>
+                </div>
+                <div class="os-tab-content" id="aDesign">
+                    <img>
+                    <p>Kristinka - Malinka. </p>
+                </div>
+                <div class="os-tab-content" id="oMarketing">
+                    <img>
+                    <p>Batman. Batman. </p>
+                </div>
+                <div class="os-tab-content" id="sService">
+                    <img>
+                    <p>Hola, Hello. </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</div> -->
+    <section class="shadow3">
+        <div class="shadow3-content">
+            <h1 class="shadow-title">Everything is ready. just buy and install now</h1>
+            <p class="shadow-text">Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many
+                many options for you</p>
+        </div>
+
+        <div class="fp-buttons">
+            <div class="v-fp-button2"></div>
+            <a href="#" class="fp-button2">EXPLORE NOW</a>
+        </div>
+
+
+    </section>
+    <section class="third-page">
+        <div class="container">
+        <h2 class="title-thirdpage">Our Amazing Work</h2>
+
+
+        <!-- <ul class="third-page-items">
+                <li class="third-page-item active" data-tab="All">
+                    All
+                </li>
+                <li class="third-page-item" data-tab="Graphic Design">
+                    Graphic Design
+                </li>
+                <li class="third-page-item" data-tab="Web Design">
+                    Web Design
+                </li>
+                <li class="third-page-item" data-tab="Landing Pages">Landing Pages 
+
+                </li>
+                <li class="third-page-item" data-tab="Wordpress">
+                    Wordpress
+                </li>
+
+            </ul>
+            <div class="section-photo">
+                <div class="block-creative">
+                    <svg class="svg-creative" width="88" height="43" viewBox="0 0 88 43" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="2" width="41" height="40" rx="20" stroke="#18CFAB" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M26.9131 17.7282L25.0948 15.8913C24.2902 15.0809 22.983 15.0759 22.1768 15.8826L20.1592 17.8926C19.3516 18.6989 19.3482 20.0103 20.1505 20.8207L21.3035 19.689C21.1868 19.3284 21.3304 18.9153 21.6159 18.6295L22.8995 17.3519C23.3061 16.9462 23.9584 16.9491 24.3595 17.3543L25.4513 18.458C25.8528 18.8628 25.8511 19.5171 25.447 19.9232L24.1634 21.2024C23.8918 21.473 23.4461 21.6217 23.1002 21.5263L21.9709 22.6589C22.7745 23.4718 24.0803 23.4747 24.8889 22.6684L26.9039 20.6592C27.7141 19.8525 27.7167 18.5398 26.9131 17.7282ZM19.5261 25.0918C19.6219 25.4441 19.4686 25.8997 19.1909 26.1777L17.9923 27.3752C17.5807 27.7845 16.916 27.7833 16.5067 27.369L15.393 26.2475C14.9847 25.8349 14.9873 25.1633 15.3982 24.7547L16.598 23.5577C16.8903 23.2661 17.3104 23.1202 17.6771 23.2438L18.8335 22.0715C18.0149 21.2462 16.6825 21.2421 15.8606 22.0632L13.9152 24.0042C13.0923 24.8266 13.0884 26.1629 13.9065 26.9886L15.7582 28.8618C16.576 29.6846 17.9072 29.6912 18.7311 28.8701L20.6765 26.9287C21.4985 26.1054 21.5024 24.7717 20.6855 23.9443L19.5261 25.0918ZM19.2579 24.5631C18.9801 24.8419 18.5343 24.8411 18.2618 24.5581C17.9879 24.2743 17.9901 23.8204 18.2661 23.5399L21.5907 20.1611C21.8668 19.8823 22.3117 19.8831 22.5851 20.164C22.8605 20.4457 22.8588 20.9009 22.5817 21.183L19.2579 24.5631Z"
+                            fill="#1FDAB5" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M66.5973 1.99795C77.8653 1.99795 86.9999 10.9523 86.9999 21.9979C86.9999 33.0432 77.8653 41.9979 66.5973 41.9979C55.3292 41.9979 46.1946 33.0432 46.1946 21.9979C46.1946 10.9523 55.3292 1.99795 66.5973 1.99795Z"
+                            fill="#18CFAB" />
+                        <rect x="60" y="17" width="12" height="11" fill="white" />
+                    </svg>
+                    <h2 class="title-creative">CREATIVE DESIGN</h2>
+                    <p class="text-creative">Web Design</p> -->
+        <!-- </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div> -->
+
+        
+        <ul class="our-work-list">
+            <li class="third-page-item active" data-worktab="All">All</li>
+            <li class="third-page-item" data-worktab="Graphic Design">
+                Graphic Design
+            </li>
+            <li class="third-page-item" data-worktab="Web Design">Web Design</li>
+            <li class="third-page-item" data-worktab="Landing Pages">
+                Landing Pages
+            </li>
+            <li class="third-page-item" data-worktab="Wordpress">Wordpress</li>
+        </ul>
+        <ul class="work-photo" id="work-list">
+            <li class="work-photo-list" data-workdescription="Web Design">
+                <img class="work-photo-img" src="./img/wdesign.jpg" alt="" /> 
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Web Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Graphic Design">
+                <img class="work-photo-img" src="./sections-img/Layer 24.png" alt="" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Graphic Design</p> 
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Web Design">
+                <img class="work-photo-img" src="./sections-img/Layer 25.png" alt="" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Web Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Graphic Design">
+                <img class="work-photo-img" src="./sections-img/Layer 26.png" alt="" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Graphic Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Web Design">
+                <img class="work-photo-img" src="./sections-img/Layer 27.png" alt="" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Web Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Graphic Design">
+                <img class="work-photo-img" src="./sections-img/Layer 28.png" alt="" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Graphic Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Landing Pages">
+                <img class="work-photo-img" src="./sections-img/Layer 29.png" alt="" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a> 
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Landing Pages</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Wordpress">
+                <img class="work-photo-img" src="./sections-img/Layer 30.png" alt="" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Wordpress</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Graphic Design">
+                <img class="work-photo-img" src="./sections-img/Layer 31.png" alt="" /> 
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Graphic Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Wordpress">
+                <img class="work-photo-img" src="./sections-img/Layer 32.png" alt="" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Wordpress</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Landing Pages">
+                <img class="work-photo-img" src="./sections-img/Layer 33.png" alt="#" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Landing Pages</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Landing Pages">
+                <img class="work-photo-img" src="./sections-img/Layer 34.png" alt="#" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Landing Pages</p>
+                </div>
+            </li>
+            <!-- <li class="work-photo-list" data-workdescription="Web Design">
+                <img class="work-photo-img" src="./img/wdesign.jpg" alt="#" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Web Design</p>
+                </div>
+            </li> --> 
+        </ul>
+        <ul class="work-photo additionally">
+            <li class="work-photo-list" data-workdescription="Graphic Design">
+                <img class="work-photo-img" src="./img/gdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a> 
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Graphic Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Landing Pages">
+                <img class="work-photo-img" src="./img/gdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Landing Pages</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Web Design">
+                <img class="work-photo-img" src="./img/wdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Web Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Wordpress">
+                <img class="work-photo-img" src="./img/gdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Wordpress</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Landing Pages">
+                <img class="work-photo-img" src="./img/wdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Landing Pages</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Web Design">
+                <img class="work-photo-img" src="./img/gdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Web Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Graphic Design">
+                <img class="work-photo-img" src="./img/wdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Graphic Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Graphic Design">
+                <img class="work-photo-img" src="./img/gdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="#" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Graphic Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Web Design">
+                <img class="work-photo-img" src="./img/gdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Web Design</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Landing Pages">
+                <img class="work-photo-img" src="./img/gdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Landing Pages</p>
+                </div>
+            </li>
+            <li class="work-photo-list" data-workdescription="Wordpress">
+                <img class="work-photo-img" src="./img/gdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a>
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Wordpress</p>
+                </div> 
+            </li>
+            <li class="work-photo-list" data-workdescription="Landing Pages"> 
+                <img class="work-photo-img" src="./img/gdesign.jpg" alt="Graphics" />
+                <div class="work-photo-description">
+                    <a href="#">
+                        <img class="work-photo-icon" src="./sections-img/work-links.svg" alt="Graphics" /></a> 
+                    <h4 class="work-photo-description-title">creative design</h4>
+                    <p class="work-photo-description-text">Landing Pages</p>
+                </div>
+            </li>
+        </ul>
+        <button class="button-load" id="loadMore" onclick="loadMore()">
+            <div class="text-svg-btnload">
+                <svg class="plus-button" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M15.5 6.99735H9.99996V1.49787C9.99996 1.22194 9.77611 0.997242 9.49998 0.997242H6.4999C6.22387 0.997242 5.99991 1.22194 5.99991 1.49787V6.99735H0.499994C0.223838 6.99735 7.98702e-06 7.22206 7.98702e-06 7.4984V10.4976C7.98702e-06 10.7731 0.223838 10.9974 0.499994 10.9974H5.99991V16.4977C5.99991 16.7732 6.22387 16.998 6.4999 16.998H9.49998C9.77611 16.998 9.99996 16.7732 9.99996 16.4977V10.9974H15.5C15.776 10.9974 16 10.7731 16 10.4976V7.4984C16 7.22206 15.776 6.99735 15.5 6.99735Z"
+                        fill="white" />
+                </svg>
+                <span class="text-buttonload">LOAD MORE</span>
+            </div>
+        
+        </button> 
+        </div>
+    </section>
+
+
+    <section class="fourth-page">
+        <h1 class="title-fourth-page">Breaking News</h1>
+        <ul class="news-list">
+            <li class="news-item">
+              <a class="news-link" href="#">
+                <img class="news-img" src="./b-news-img/b-news1.png" alt="#" />
+                <p class="news-date">12 Feb</p>
+                <h5 class="news-title">Amazing Blog Post</h5></a
+              >
+              <div class="news-details">
+                <a class="news-text-link news-text-link-special" href="#"
+                  >By admin</a
+                >
+                <a class="news-text-link" href="#">2 comment</a>
+              </div>
+            </li>
+            <li class="news-item">
+              <a class="news-link" href="#">
+                <img class="news-img" src="./b-news-img/b-news2.png" alt="#" />
+                <p class="news-date">13 March</p>
+                <h5 class="news-title">Amazing Blog Post</h5></a
+              >
+              <div class="news-details">
+                <a class="news-text-link news-text-link-special" href="#"
+                  >By admin</a
+                >
+                <a class="news-text-link" href="#">3 comment</a>
+              </div>
+            </li>
+            <li class="news-item">
+              <a class="news-link" href="#">
+                <img class="news-img" src="./b-news-img/b-news3.png" alt="#" />
+                <p class="news-date">9 Apr</p>
+                <h5 class="news-title">Amazing Blog Post</h5></a
+              >
+              <div class="news-details">
+                <a class="news-text-link news-text-link-special" href="#"
+                  >By admin</a
+                >
+                <a class="news-text-link" href="#">7 comment</a>
+              </div>
+            </li>
+            <li class="news-item">
+              <a class="news-link" href="#">
+                <img class="news-img" src="./b-news-img/b-news4.png" alt="#" />
+                <p class="news-date">4 May</p>
+                <h5 class="news-title">Amazing Blog Post</h5></a
+              >
+              <div class="news-details">
+                <a class="news-text-link news-text-link-special" href="#"
+                  >By admin</a
+                >
+                <a class="news-text-link" href="#">4 comment</a>
+              </div>
+            </li>
+            <li class="news-item">
+              <a class="news-link" href="#">
+                <img class="news-img" src="./b-news-img/b-news5.png" alt="#" />
+                <p class="news-date">19 June</p>
+                <h5 class="news-title">Amazing Blog Post</h5></a
+              >
+              <div class="news-details">
+                <a class="news-text-link news-text-link-special" href="#"
+                  >By admin</a
+                >
+                <a class="news-text-link" href="#">10 comment</a>
+              </div>
+            </li>
+            <li class="news-item">
+              <a class="news-link" href="#">
+                <img class="news-img" src="./b-news-img/b-news6.png" alt="#" />
+                <p class="news-date">12 Jule</p>
+                <h5 class="news-title">Amazing Blog Post</h5></a
+              >
+              <div class="news-details">
+                <a class="news-text-link news-text-link-special" href="#"
+                  >By admin</a
+                >
+                <a class="news-text-link" href="#">5 comment</a>
+              </div>
+            </li>
+            <li class="news-item">
+              <a class="news-link" href="#">
+                <img class="news-img" src="./b-news-img/b-news7.png" alt="#" />
+                <p class="news-date">17 Aug</p>
+                <h5 class="news-title">Amazing Blog Post</h5></a
+              >
+              <div class="news-details">
+                <a class="news-text-link news-text-link-special" href="#"
+                  >By admin</a
+                >
+                <a class="news-text-link" href="#">11 comment</a>
+              </div>
+            </li>
+            <li class="news-item">
+              <a class="news-link" href="#">
+                <img class="news-img" src="./b-news-img/b-news8.png" alt="#" /> 
+                <p class="news-date">2 Sept</p>
+                <h5 class="news-title">Amazing Blog Post</h5></a
+              >
+              <div class="news-details">
+                <a class="news-text-link news-text-link-special" href="#"
+                  >By admin</a
+                >
+                <a class="news-text-link" href="#">9 comment</a>
+              </div>
+            </li>
+          </ul>
+
+        <!-- <div class="grid-images">
+            <a class="content-image" href="#">
+                <img src="./b-news-img/b-news1.png" alt="Shopping Tours" width="300px"> 
+                <div class="image-hover">
+                    <h5  class="image-hover-from">from</h5>
+                    <h2  class="image-hover-price">€50</h2>
+                    <h3  class="image-hover-details">View Details</h3>
+                    <div class="image-hover-element"></div> 
+                </div>
+                <figcaption>Shopping Tours</figcaption>
+            </a>
+            <a class="content-image" href="#">
+                <img src="./b-news-img/b-news2.png" alt="Sightseeing Tours" width="300px">
+                <div class="image-hover">
+                    <h5  class="image-hover-from">from</h5>
+                    <h2  class="image-hover-price">€50</h2>
+                    <h3  class="image-hover-details">View Details</h3>
+                    <div class="image-hover-element"></div>
+                </div>
+                <figcaption>Sightseeing Tours</figcaption>
+            </a>
+            <a class="content-image" href="#">
+                <img src="./b-news-img/b-news3.png" alt="Food Tours" width="300px">
+                <div class="image-hover">
+                    <h5  class="image-hover-from">from</h5>
+                    <h2  class="image-hover-price">€50</h2>
+                    <h3  class="image-hover-details">View Details</h3>
+                    <div class="image-hover-element"></div>
+                </div>
+                <figcaption>Food Tours</figcaption>
+            </a>
+            <a class="content-image" href="#">
+                <img src="./b-news-img/b-news4.png" alt="Bars & Nightlife" width="300px">
+                <div class="image-hover">
+                    <h5  class="image-hover-from">from</h5>
+                    <h2  class="image-hover-price">€50</h2>
+                    <h3  class="image-hover-details">View Details</h3>
+                    <div class="image-hover-element"></div>
+                </div>
+                <figcaption>Bars & Nightlife</figcaption>
+            </a>
+            <a class="content-image" href="#">
+                <img src="./b-news-img/b-news5.png" alt="Art & Architecture" width="300px">
+                <div class="image-hover">
+                    <h5  class="image-hover-from">from</h5>
+                    <h2  class="image-hover-price">€50</h2>
+                    <h3  class="image-hover-details">View Details</h3>
+                    <div class="image-hover-element"></div>
+                </div>
+                <figcaption>Art & Architecture</figcaption>
+            </a>
+            <a class="content-image" href="#">
+                <img src="./b-news-img/b-news6.png" alt="Walking Tours" width="300px">
+                <div class="image-hover">
+                    <h5  class="image-hover-from">from</h5>
+                    <h2  class="image-hover-price">€50</h2>
+                    <h3  class="image-hover-details">View Details</h3>
+                    <div class="image-hover-element"></div>
+                </div>
+                <figcaption>Walking Tours</figcaption> 
+            </a>
+            <a class="content-image" href="#">
+                <img src="./b-news-img/b-news7.png" alt="Sightseeing Tours" width="300px">
+                <div class="image-hover">
+                    <h5  class="image-hover-from">from</h5>
+                    <h2  class="image-hover-price">€50</h2>
+                    <h3  class="image-hover-details">View Details</h3>
+                    <div class="image-hover-element"></div>
+                </div>
+                <figcaption>Sightseeing Tours</figcaption>
+            </a>
+            <a class="content-image" href="#">
+                <a class="news-link" href="#">
+                    <img class="news-img" src="./b-news-img/b-news8.png" alt="#" />
+                    <p class="news-date">13 March</p>
+                    <h5 class="news-title">Amazing Blog Post</h5></a
+                  >
+                  <div class="news-details">
+                    <a class="news-text-link news-text-link-special" href="#"
+                      >By admin</a
+                    >
+                    <a class="news-text-link" href="#">3 comment</a>
+                  </div>
+            </a>
+        </div>  -->
+
+
+    </section>
+    <section class="fifth-page">
+        <div class="container"></div>
+           <h1 class="title-fifth-page">What People Say About theHam</h1> 
+           <img class="quote-fifth" src="./img/people/quote5.svg" alt="">   
+
+        
+            <!-- <h3 class="title people-say">What People Say About theHam</h3> -->
+            <div class="slider swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <p class="comment">
+                    Integer dignissim, augue tempus ultricies luctus, quam dui
+                    laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar
+                    odio eget aliquam facilisis. Tempus ultricies luctus, quam dui
+                    laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar
+                    odio eget aliquam facilisis.
+                  </p>
+                  <p class="commentator-name">Hasan Ali</p> 
+                  <p class="commentator-specialty">UX Designer</p>
+                  <div class="swiper-slider-image">
+                    <img
+                      class="image-people-say"
+                      src="./img/people/people1.png"
+                      alt="people"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <p class="comment">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur excepturi ut architecto rem aspernatur et at
+                    voluptatum modi. Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Deserunt adipisci perspiciatis omnis
+                    quisquam similique quaerat dolorem commodi quis ea aperiam!
+                  </p>
+                  <p class="commentator-name">Lenifer Jopez</p>
+                  <p class="commentator-specialty">Full Stack Developer</p>
+                  <div class="swiper-slider-image">
+                    <img
+                      class="image-people-say"
+                      src="./img/people/people2.png"
+                      alt="people"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <p class="comment">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing. Lorem
+                    ipsum, dolor sit. Accusamus consequatur laudantium, repellat
+                    eos odio dignissimos explicabo! Tenetur quam odio illum
+                    expedita cum?
+                  </p>
+                  <p class="commentator-name">Bustin Jieber</p>
+                  <p class="commentator-specialty">Soft Engineer</p>
+                  <div class="swiper-slider-image">
+                    <img
+                      class="image-people-say"
+                      src="./img/people/people3.png"
+                      alt="people"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <p class="comment"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident reprehenderit mollitia maiores rem vel doloribus,
+                    animi eum molestias minus dolorem? Lorem ipsum dolor sit amet
+                    consectetur adipisicing.
+                  </p>
+                  <p class="commentator-name">Gelena Somez</p> 
+                  <p class="commentator-specialty">Senior Full-Stack Developer</p>
+                  <div class="swiper-slider-image">
+                    <img
+                      class="image-people-say"
+                      src="./img/people/people4.png" 
+                      alt="people"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-back">
+                <img src="./img/people/slide5.svg" alt="" /> 
+              </div>
+              <div class="swiper-button-forvard">
+                <img src="./img/people/slide5.svg" alt="" />
+              </div>
+            </div>
+            <div class="slider-mini swiper">
+              <div class="swiper-wrapper-mini swiper-wrapper">
+                <div class="swiper-slide-mini swiper-slide">
+                  <div class="swiper-slider-mini-image">
+                    <img
+                      class="image-people-say-mini"
+                      src="./img/people/people1.png"
+                      alt="people"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide-mini swiper-slide">
+                  <div class="swiper-slider-mini-image">
+                    <img
+                      class="image-people-say-mini"
+                      src="./img/people/people2.png"
+                      alt="people"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide-mini swiper-slide">
+                  <div class="swiper-slider-mini-image">
+                    <img
+                      class="image-people-say-mini"
+                      src="./img/people/people3.png"
+                      alt="people"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide-mini swiper-slide">
+                  <div class="swiper-slider-mini-image">
+                    <img
+                      class="image-people-say-mini"
+                      src="./img/people/people4.png"
+                      alt="people"
+                    /> 
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div> 
+        
+    </section>
+    <section class="sixth-page">
+        <div class="container">
+            <h1 class="title-sixth-page">Gallery of best images</h1>
+            <ul class="gallery">
+              <li class="gallery-item">
+                <img 
+                  class="picture-img"
+                  src="./img/grid/grid1-1cl.png"
+                  alt="#"
+                  width="378"
+                  height="263"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  class="picture-img"
+                  src="./img/grid/grid2-1cl.png"
+                  alt="#"
+                  width="378"
+                  height="263"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  class="picture-img"
+                  src="./img/grid/grid3-1cl.png"
+                  alt="#"
+                  width="378"
+                  height="290"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  class="picture-img"
+                  src="./img/grid/grid1-2cl.png"
+                  alt="#"
+                  width="370"
+                  height="380"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  class="picture-img"
+                  src="./img/grid/grid2-2cl.png"
+                  alt="#"
+                  width="378"
+                  height="247"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  class="picture-img"
+                  src="./img/grid/grid3-2cl.png"
+                  alt="#"
+                  width="378"
+                  height="254"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <ul class="gallery-grid">
+                <li class="gallery-grid-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/grid1-3cl.png"
+                    alt="#"
+                    width="180"
+                    height="168"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+                <li class="gallery-grid-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/grid2-3cl.png"
+                    alt="#"
+                    width="181"
+                    height="169"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+              </ul>
+              <ul class="gallery-list-two">
+                <li class="gallery-two-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/9grid1.png"
+                    alt="#"
+                    width="124"
+                    height="92"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+                <li class="gallery-two-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/9grid2.png"
+                    alt="#"
+                    width="119"
+                    height="92"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+                <li class="gallery-two-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/9grid3.png"
+                    alt="#"
+                    width="115"
+                    height="92"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+                <li class="gallery-two-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/9grid4.png"
+                    alt="#"
+                    width="124"
+                    height="92"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+                <li class="gallery-two-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/9grid5.png"
+                    alt="#"
+                    width="119"
+                    height="92"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+                <li class="gallery-two-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/9grid6.png"
+                    alt="#"
+                    width="115"
+                    height="92"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+                <li class="gallery-two-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/9grid7.png"
+                    alt="#"
+                    width="124"
+                    height="92"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+                <li class="gallery-two-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/9grid8.png"
+                    alt="#"
+                    width="119"
+                    height="92"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+                <li class="gallery-two-item">
+                  <img
+                    class="picture-img"
+                    src="./img/grid/9grid9.png"
+                    alt="#"
+                    width="115"
+                    height="92"
+                  />
+                  <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+                </li>
+              </ul>
+              <li class="gallery-two-item"> 
+                <img
+                  class="picture-img"
+                  src="./img/grid/grid3-3cl.png" 
+                  alt="#"
+                  width="363"
+                  height="373"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+            </ul>
+            <ul class="gallery-add additionally">
+              <li class="gallery-item-add">
+                <img
+                  class="picture-img"
+                  src="./us-img/city8.jpg"
+                  alt="#"
+                  width="378"
+                  height="263"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <li class="gallery-item-add">
+                <img
+                  class="picture-img"
+                  src="./us-img/city9.jpg"
+                  alt="#"
+                  width="378"
+                  height="263"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <li class="gallery-item-add">
+                <img
+                  class="picture-img"
+                  src="./us-img/city10.jpg"
+                  alt="#"
+                  width="378"
+                  height="290"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <li class="gallery-item-add">
+                <img
+                  class="picture-img"
+                  src="./us-img/city7.jpg"
+                  alt="#"
+                  width="370"
+                  height="380"
+                /> 
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <li class="gallery-item-add">
+                <img
+                  class="picture-img"
+                  src="./us-img/city6.jpg"
+                  alt="#"
+                  width="378"
+                  height="247"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div>
+              </li>
+              <li class="gallery-item-add">
+                <img
+                  class="picture-img"
+                  src="./us-img/city11.png"
+                  alt="#"
+                  width="378"
+                  height="254"
+                />
+                <div class="gallery-icon-group">
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/see-grid.svg"
+                      alt="#"
+                    />
+                    <img
+                      class="gallery-icon"
+                      src="./img/grid/search-grid.svg"
+                      alt="#"
+                    />
+                  </div> 
+              </li> 
+            </ul>
+            <button class="button-load1"  >
+              <div class="text-svg-btnload">
+                  <svg class="plus-button" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M15.5 6.99735H9.99996V1.49787C9.99996 1.22194 9.77611 0.997242 9.49998 0.997242H6.4999C6.22387 0.997242 5.99991 1.22194 5.99991 1.49787V6.99735H0.499994C0.223838 6.99735 7.98702e-06 7.22206 7.98702e-06 7.4984V10.4976C7.98702e-06 10.7731 0.223838 10.9974 0.499994 10.9974H5.99991V16.4977C5.99991 16.7732 6.22387 16.998 6.4999 16.998H9.49998C9.77611 16.998 9.99996 16.7732 9.99996 16.4977V10.9974H15.5C15.776 10.9974 16 10.7731 16 10.4976V7.4984C16 7.22206 15.776 6.99735 15.5 6.99735Z"
+                          fill="white" />
+                  </svg>
+                  <span class="text-buttonload1">LOAD MORE</span>
+              </div>
+          
+          </button> 
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <p>
+              &#169; Copyright 2015
+              <a href=""><span class="green-color">theHam</span></a> | All Rights
+              Reserved
+            </p>
+          </div>
+        </footer>
+  
+    
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="apps.js"></script>  
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+</body>
+
+</html>
